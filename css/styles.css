@@ -1,0 +1,63 @@
+
+/* основой цвет текста #757575
+
+вторичный цвет текста #212121
+акцент #2196F3
+
+цвет фона #F5F5F5 */
+:root{
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --nav-text-color:#212121;
+    --accent-text-color:#2196F3;
+    --white-color:#FFFFFF;
+    
+}
+
+
+body{
+    background-color: #F5F5F5;
+    color:var(--primary-text-color);
+}
+ul{
+    list-style: none;
+}
+.logo {
+    color:#2196F3;}
+.logo:hover{
+    color:burlywood;
+}
+
+
+    /* SITE-NAV */
+.site-nav .link {
+    color:var(--nav-text-color);
+}
+.site-nav :hover , .site-nav :focus {
+    color: var(--accent-text-color);
+}
+ /* SITE-CONTACTE */
+ .site-contacte :hover{
+    color:var(--accent-text-color);
+ }
+ .site-contacte .tell{
+    color:#757575;
+ }
+ 
+
+  /* SERVICES */
+  .services{
+    background-color: #2F303A;
+  }
+  .services-title{
+    color: var(--white-color);
+  }
+  .button{
+    background-color:#2196F3 ;
+    color: var(--white-color);
+  }
+    /* SECTION */
+.section-title{
+    color:var(--title-text-color);
+}
+/* Остался ФУТЕР  */
