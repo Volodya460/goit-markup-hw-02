@@ -36,6 +36,9 @@ ul{
 .site-nav :hover , .site-nav :focus {
     color: var(--accent-text-color);
 }
+.site-nav .link.current{
+    color:var(--accent-text-color);
+}
  /* SITE-CONTACTE */
  .site-contacte :hover{
     color:var(--accent-text-color);
