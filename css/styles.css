@@ -36,17 +36,17 @@ ul{
  line-height: 1.2;
      }
 .logo:hover{
-    color:burlywood;
+    color:#F45656;
           }
  .logo-two {
     color:#FFFFFF}
  .logo-two:hover{
-  color:burlywood;  
+  color:#F45656;  
  }
  .logo-three {
     color:#000000;}
  .logo-three:hover{
-    color:burlywood;
+    color:#F45656;
  }
 
     /* SITE-NAV */
