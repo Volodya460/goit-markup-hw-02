@@ -97,7 +97,7 @@ ul{
     color: var(--white-color);
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.4;
     text-align: center;
     letter-spacing: 0.06em;
 
@@ -109,7 +109,7 @@ ul{
     font-family: inherit;
    font-weight: 700;
    font-size: 16px;
-   line-height: 0.5;
+   line-height: 2;
    align-items: center;
    text-align: center;
    letter-spacing: 0.06em;
@@ -184,7 +184,8 @@ font-style: normal;
     font-family: inherit;
    font-weight: 500;
    font-size: 16px;
-   line-height: 2;
+   line-height: 1.6; 
+   /* line-height я просто изначально округлил до 2 */
      } 
     .filtr-button:hover , .filtr-button:focus{
         background-color:var(--accent-text-color) ;
@@ -194,12 +195,11 @@ font-style: normal;
     .portfolio-title{
         color: var(--title-text-color);
        font-size: 18px;
-        line-height: 2;
         letter-spacing: 0.06em;
     }
     .portfolio{
         
         font-size: 16px;
-         line-height: 2;
+         
               }
               
