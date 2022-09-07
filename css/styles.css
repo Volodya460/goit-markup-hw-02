@@ -13,6 +13,13 @@
     --white-color:#FFFFFF;
     
 }
+.container{
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 body{
@@ -26,6 +33,14 @@ body{
 }
 ul{
     list-style: none;
+}
+.list{
+    padding: 0;
+    margin: 0;
+}
+
+.section {
+    padding: 94px 215px;
 }
 /* LOGO */
 .logo {
@@ -92,14 +107,18 @@ ul{
   
   .services{
     background-color: #2F303A;
+    text-align: center;
+    padding:200px 452px ;
   }
   .services-title{
     color: var(--white-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
-    text-align: center;
     letter-spacing: 0.06em;
+    margin-top: 0;
+    margin-bottom: 40px;
+
 
   }
   .button{
@@ -113,6 +132,9 @@ ul{
    align-items: center;
    text-align: center;
    letter-spacing: 0.06em;
+   border-radius: 4px;
+   padding: 10px 32px;
+   border:none;
     }
     .button:hover,.button:focus{
         background-color:#188CE8;
@@ -120,18 +142,30 @@ ul{
 
     
     /* SECTION */
+
 .section-title{
     color:var(--title-text-color);
 font-size: 36px;
 line-height: 1.2;
 text-align:center;
+margin-top: 0;
+margin-bottom: 50px;
+}
+.section-title.centered{
+    text-align: center;
 }
 /* quality-list */
-.quality-list-title{
+.quality-title{
     color: var(--title-text-color);
     font-size: 14px;
   line-height: 1.1;
+  margin-top: 0;
+  margin-bottom: 10px;
 
+}
+.quality p{
+    margin-top: 0;
+    margin-bottom: 0;
 }
 /* .quality-list-text{
 font-weight: 400;
@@ -140,35 +174,38 @@ line-height: 2;
 } */
 /* Team */
 .team-title {
-    color: var(--title-text-color);
+ color: var(--title-text-color);
  font-weight: 500;
  font-size: 16px;
  line-height: 1.2;
+ margin-top:30px ;
+ margin-bottom: 10px;
  }
  .team-position{
 
 font-size: 16px;
 line-height: 1.2;
-
- }
+margin-top: 0;
+margin-bottom: 0;
+}
 
 /*  ФУТЕР  */
 
-.container{
+.footer{
     background-color: #2F303A;
 }
-.container .link {
+.footer .link {
     color: var(--primary-text-color);
     text-decoration: none;
 }
- .container .link:hover ,.container .link:focus{
+ .footer .link:hover ,.footer .link:focus{
     color: var(--accent-text-color);
  } 
-.container .tell {
+.footer .tell {
     color: var(--primary-text-color);
     text-decoration: none;
 }
-.container .tell:hover , .container .tell:focus{
+.footer .tell:hover , .footer .tell:focus{
     color: var(--accent-text-color);
 }
  address {color:#FFFFFF;
@@ -181,10 +218,15 @@ font-style: normal;
     background-color: #F5F4FA;
     color:var(--nav-text-color);
     cursor: pointer;
-    font-family: inherit;
+    font-family:inherit;
    font-weight: 500;
    font-size: 16px;
-   line-height: 1.6; 
+   line-height: 1.6;
+   border-radius: 4px;
+   text-align: center;
+   padding: 6px 22px;
+   
+
    /* line-height я просто изначально округлил до 2 */
      } 
     .filtr-button:hover , .filtr-button:focus{
@@ -196,10 +238,19 @@ font-style: normal;
         color: var(--title-text-color);
        font-size: 18px;
         letter-spacing: 0.06em;
+        margin-top: 20px;
+        margin-bottom: 4px;
     }
     .portfolio{
         
         font-size: 16px;
          
               }
+    .portfolio p{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .filtr-space{
+        padding: 94px 215px ;
+    }
               
